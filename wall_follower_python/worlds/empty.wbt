@@ -1,0 +1,71 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.4634423735013587 0.7919817909230885 0.39747453917161063 1.634945530565667
+  position 1.7564011917204398 2.389023847374031 0.4763127719025796
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -0.03
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 1081.0231814462145
+  hidden position_0_1 1180.7155943993048
+  hidden linearVelocity_0 -0.02412830236815397 -0.13457358049992058 -0.07694955220859924
+  hidden angularVelocity_0 -5.135751082837256 0.003494608528904418 1.6042698039165495
+  hidden rotation_1 -1 0 0 0.31530861132561927
+  hidden linearVelocity_1 -0.031541138425080134 -0.13482350691822415 -0.10290468099508943
+  hidden angularVelocity_1 -5.882299061272836 0.008010621488881545 1.8471347420053634
+  hidden rotation_2 1 0 0 0.5232433504574667
+  hidden linearVelocity_2 -0.03255920049066334 -0.13248462324076168 -0.10182446623158542
+  hidden angularVelocity_2 -11.117969377667539 0.06330586756314294 3.5155690688651333
+  translation 0.060608749279573174 -0.004121212669324834 -0.7629867671046443
+  rotation 0.4834784163194283 -0.8723861021178693 -0.07204935658871636 -0.345418937822771
+  controller "wall_follower_py"
+}
+Wall {
+  translation -0.27 0 0.02
+  rotation 0 1 0 1.5708
+  size 1 0.1 0.01
+}
+Wall {
+  translation 0.21 0 -0.11
+  rotation 0 1 0 1.5708
+  name "wall(1)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation -0.01 0 -0.03
+  name "wall(2)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation -0.54 0 -0.01
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(3)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation -3.30588e-07 0 -0.24
+  rotation 0 1 0 1.5708
+  name "wall(4)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation 3.6732e-07 0 -0.05
+  rotation 0 1 0 1.5708
+  name "wall(5)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation 0.480001 0 -0.1
+  rotation 0 1 0 1.5708
+  name "wall(6)"
+  size 1 0.1 0.01
+}
