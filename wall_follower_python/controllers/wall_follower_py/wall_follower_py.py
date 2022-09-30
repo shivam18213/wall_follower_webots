@@ -47,6 +47,9 @@ def run_robot(robot):
                 print("turn right")
                 left_speed = max_speed
                 right_speed = max_speed/8
+            else:
+                print("none")
+                
         
         
         left_motor.setVelocity(left_speed)
